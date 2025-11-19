@@ -1,0 +1,13 @@
+SET(SOURCES ui_ScreenLogo.c
+    ui_ScreenMenu.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_logo_loading_1024x600_70_png.c
+    ui_img_gddash_70_fond_png.c
+    ui_img_icon04_png.c
+    ui_img_icon01_png.c
+    ui_img_icon02_png.c
+    ui_img_icon03_png.c)
+
+add_library(ui ${SOURCES})
