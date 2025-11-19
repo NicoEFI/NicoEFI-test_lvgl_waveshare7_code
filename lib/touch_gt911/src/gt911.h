@@ -16,7 +16,7 @@
 #ifndef GT911_H
 #define GT911_H
 
-#include "lib/touch.h"
+#include "touch.h"
 
 /**
  * @brief I2C address of the GT911 controller

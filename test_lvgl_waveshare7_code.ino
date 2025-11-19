@@ -2,11 +2,11 @@
 * Performs a five-point touch test and demonstrates basic usage of double buffering.
 */
 #include <Arduino.h>
-#include "lib/lvgl_port.h"
-#include "lib/rgb_lcd_port.h"    // Header for Waveshare RGB LCD driver
-#include "lib/gt911.h"           // Header for touch screen operations (GT911)
-#include "lib/touch.h"
-#include "lib/i2c.h"
+#include "lvgl_port.h"
+#include "rgb_lcd_port.h"    // Header for Waveshare RGB LCD driver
+#include "gt911.h"           // Header for touch screen operations (GT911)
+#include "touch.h"
+#include "i2c.h"
 #include "ui.h"
 
 void setup() {
